@@ -139,21 +139,18 @@ const Hero = () => {
               <div className="absolute -top-4 -left-4 w-72 h-72 bg-sky-400/20 dark:bg-sky-400/10 rounded-full blur-3xl animate-pulse"></div>
               <div className="absolute -bottom-4 -right-4 w-72 h-72 bg-cyan-400/20 dark:bg-cyan-400/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
               
-              {/* Main image container */}
+              
               <div className="relative bg-gradient-to-br from-sky-500 to-cyan-400 rounded-2xl p-1 shadow-2xl">
                 <div className="bg-white dark:bg-slate-900 rounded-xl p-8 h-full">
-                  {/* Placeholder for your image - replace with actual image */}
-                  <div className="aspect-square bg-gradient-to-br from-gray-100 to-gray-200 dark:from-slate-800 dark:to-slate-700 rounded-xl flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="w-32 h-32 mx-auto mb-4 bg-gradient-to-br from-sky-500 to-cyan-400 rounded-full flex items-center justify-center">
-                        <span className="text-6xl text-white font-bold">C</span>
-                      </div>
-                      <p className="text-gray-500 dark:text-gray-400 text-sm">
-                        Agrega tu foto aquí
-                      </p>
-                    </div>
+                  {/* Logo image from public/images */}
+                  <div className="aspect-square rounded-xl flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200 dark:from-slate-800 dark:to-slate-700">
+                    <img
+                      src="/images/logo.png"
+                      alt="Cecilia García logo"
+                      className="max-w-full max-h-full object-contain rounded-xl"
+                    />
                   </div>
-                  
+
                   {/* Floating tech badges */}
                   <div className="absolute -right-4 top-1/4 bg-white dark:bg-slate-800 px-4 py-2 rounded-lg shadow-lg border border-gray-200 dark:border-slate-700">
                     <span className="text-sm font-semibold text-gray-700 dark:text-gray-300">React</span>
