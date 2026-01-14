@@ -57,7 +57,7 @@ const About = () => {
             {/* CV Download Button */}
             <a
               href="/cv.pdf"
-              download
+              download="CV_CeciliaGarcia.pdf"  // Cambia el nombre del archivo descargado
               className="inline-flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-sky-500 to-cyan-400 text-white font-semibold rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-200"
             >
               <Download className="w-5 h-5" />
