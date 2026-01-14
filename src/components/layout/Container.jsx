@@ -1,0 +1,20 @@
+import React from "react";
+
+const Container = ({ children, className = "", py = true }) => {
+  return (
+    <div
+      className={`
+        w-full 
+        max-w-7xl 
+        mx-auto 
+        px-4 sm:px-6 lg:px-8
+        ${py ? "py-12 sm:py-16 lg:py-20" : ""}
+        ${className}
+      `}
+    >
+      {children}
+    </div>
+  );
+};
+
+export default Container;
