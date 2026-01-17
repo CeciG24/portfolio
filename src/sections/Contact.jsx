@@ -75,7 +75,7 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-gray-50 to-sky-50 dark:from-slate-950 dark:to-slate-900">
+    <section id="contact" className="py-12 bg-gradient-to-br from-gray-50 to-sky-50 dark:from-slate-950 dark:to-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}

@@ -18,7 +18,7 @@ const Projects = () => {
     : projectsData.filter(p => p.role === filter);
 
   return (
-    <section id="projects" className="py-20 bg-white dark:bg-slate-900">
+    <section id="projects" className="py-12 bg-white dark:bg-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
@@ -26,7 +26,7 @@ const Projects = () => {
           <h2 className="text-4xl sm:text-5xl font-heading font-bold mb-4 text-gray-900 dark:text-gray-100">
             Proyectos
           </h2>
-          <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl">
+          <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto"> 
             Una selección de proyectos en los que he trabajado, desde aplicaciones web completas hasta 
             demos funcionales. Cada uno refleja mi evolución como desarrolladora.
           </p>

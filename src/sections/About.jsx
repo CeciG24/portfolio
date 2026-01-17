@@ -3,9 +3,9 @@ import { Code2, Database, Palette, Download, CheckCircle2 } from 'lucide-react';
 
 const About = () => {
   const technologies = [
-    { category: 'Frontend', icon: Palette, items: ['React', 'JavaScript', 'Tailwind CSS', 'HTML/CSS'] },
-    { category: 'Backend', icon: Database, items: ['Node.js', 'Express', 'MongoDB', 'PostgreSQL'] },
-    { category: 'Herramientas', icon: Code2, items: ['Git', 'VS Code', 'Figma', 'Postman'] }
+    { category: 'Frontend', icon: Palette, items: ['React', 'JavaScript', 'Tailwind CSS', 'Bootstrap', 'HTML/CSS'] },
+    { category: 'Backend', icon: Database, items: ['Flask', 'Django','PHP', 'MongoDB', 'PostgreSQL'] },
+    { category: 'Herramientas', icon: Code2, items: ['Git', 'Figma', 'Postman'] }
   ];
 
   const highlights = [
@@ -16,7 +16,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-white dark:bg-slate-900">
+    <section id="about" className="py-12 bg-white dark:bg-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           
@@ -31,7 +31,7 @@ const About = () => {
               <p>
                 Soy <span className="text-gray-900 dark:text-gray-100 font-semibold">estudiante de desarrollo web</span> con 
                 un enfoque en <span className="text-sky-500 dark:text-sky-400 font-semibold">Full Stack</span>, 
-                aunque me apasiona especialmente el desarrollo frontend y la creación de interfaces intuitivas.
+                aunque me apasiona especialmente el desarrollo Backend y la gestión de bases de datos.
               </p>
               <p>
                 He trabajado en <span className="font-semibold text-gray-900 dark:text-gray-100">proyectos reales</span> que 
@@ -104,7 +104,7 @@ const About = () => {
             <div className="bg-gradient-to-br from-sky-50 to-cyan-50 dark:from-slate-800 dark:to-slate-800 border border-sky-200 dark:border-sky-900 rounded-xl p-6">
               <p className="text-gray-700 dark:text-gray-300 text-sm">
                 💡 <span className="font-semibold">En constante aprendizaje:</span> Actualmente explorando 
-                TypeScript, Next.js y arquitecturas de microservicios para ampliar mis habilidades.
+                TypeScript y arquitecturas de microservicios para ampliar mis habilidades.
               </p>
             </div>
           </div>
